@@ -1,0 +1,186 @@
+.body { max-width: 90%;
+	margin-left: 5%;
+      margin-top: 3%;
+      margin-right: 5%;
+	background-image: url("ondas-2.png");
+	-webkit-animation-name: empaque; 
+    -webkit-animation-duration: 3s;
+    animation-name: empaque;
+    animation-duration: 3s;
+	
+}
+.pag2{
+	margin-left: 5%;
+margin-top: 3%;
+margin-right: 5%;
+}
+
+
+nav{
+
+	
+	margin-left: 36%;
+}
+.nav{
+	font-family: 'Reem Kufi', sans-serif;
+	text-decoration: none;
+	color: #36332F;
+	font-size: 1em;
+	margin-left: 4%;
+}
+
+.franja{margin-top: -8%;
+	margin-left: -3%;
+	width: 16%;
+	height: 37%;
+	position: absolute;
+	-webkit-animation-name: cinta; 
+    -webkit-animation-duration: 3s;
+    animation-name: cinta;
+    animation-duration: 3s;
+}
+
+button.nav:hover, a.nav:active {font-size: 120%;}
+
+#bar{ 
+       font-size: 2em;
+       color: #E29150;
+       position: absolute;
+       margin-left: 89%;
+       opacity: 0.7;
+       -webkit-animation-name: cinta; 
+    -webkit-animation-duration: 1s;
+    animation-name: cinta;
+    animation-duration: 1s;
+}
+        
+ a#bar:hover, a#bar:active {
+  opacity: 100; font-size: 230%; } 
+
+.ad{
+	position: absolute;
+	font-family: "Reem Kufi", sans-serif;
+	font-size: 3%;
+	margin-top: 30%;
+
+
+} 
+
+.info{
+	float: left;
+	width: 40%;
+	display: inline;
+	margin-top: 10%;
+	margin-left: 10%;
+	position: absolute;
+	font-family: "Reem Kufi", sans-serif;
+	font-size: 1em;
+	text-align: justify;
+}     
+
+.empaque{
+
+	margin-top: 8%;
+	margin-left: 30%;
+	width:38%;
+	height: 68%;
+	-webkit-animation-name: empaque; 
+    -webkit-animation-duration: 4s;
+    animation-name: empaque;
+    animation-duration: 4s;
+}
+.cubes{
+	position: absolute;
+	margin-top: 26%;
+	margin-left: ;
+	width: 17%;
+	height: 30%;
+	-webkit-animation-name: empaque; 
+    -webkit-animation-duration: 6s;
+    animation-name: empaque;
+    animation-duration: 6s;
+
+}
+
+img.empaque:hover, img.empaque:active {
+   width:40%;
+   height: 70%; 
+}
+
+.pareja{
+	width: 30%;
+	height: 90%;
+	margin-left: 60%;
+	margin-top: 5%;
+	display: inline;
+	-webkit-animation-name: empaque; 
+    -webkit-animation-duration: 4s;
+    animation-name: empaque;
+    animation-duration: 4s;
+}
+
+.products{
+	margin-top: 8%;
+	margin-left: 4%;
+	width:28%;
+	height: 58%;
+	-webkit-animation-name: empaque; 
+    -webkit-animation-duration: 4s;
+    animation-name: empaque;
+    animation-duration: 4s;
+}
+
+.blog{
+	margin-top: 25%;
+	margin-left: 3%;
+}
+
+.cucharas{
+	width: 35%;
+	height: 5%;
+
+}
+
+.elegir{
+	margin-top: 8%;
+	margin-left: 1%;
+	width:18%;
+	height: 48%;
+}
+
+button{
+	outline-style: none;
+	background-color: white;
+	border-style: none;
+
+}
+
+
+.cuadro{
+	margin-top: -3%;
+	margin-left: -2%;
+	width: 20%;
+	height: 30px;
+	border:1px solid gray;
+	border-radius: 10px;
+	font-family: 'Reem Kufi', sans-serif;
+	font-size: 0.4em;
+	text-align: center;
+	color: solid grays;
+}
+
+.pie{
+	margin-top: 4%;
+}
+
+@keyframes cinta {
+    0%   {opacity:0.1; margin-top: -20%; left:4.94%;}
+    50%  {opacity:2; }
+    100% {opacity: 5; margin-top: -8%; left:4.94%;}
+}
+
+@keyframes empaque {
+	0% {opacity: 0.1;}
+	50% {opacity: 2;}
+	100%{opacity: 5;}
+}
